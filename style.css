@@ -1,0 +1,19 @@
+.error-msg {
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  opacity: 0;
+}
+
+.error-msg--show {
+  position: initial;
+  height: auto;
+  width: auto;
+  opacity: 1;
+  transition: opacity .6s ease-in;
+  padding: .4rem;
+  margin-bottom: .6rem;
+}
